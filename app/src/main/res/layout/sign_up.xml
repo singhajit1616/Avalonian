@@ -19,7 +19,7 @@
         android:layout_width="match_parent"
         android:layout_height="150dp"
         android:layout_weight="2526.88"
-        android:src="@mipmap/ic_launcher" />
+        android:src="@drawable/A" />
 
     <EditText
         android:id="@+id/_nid"
