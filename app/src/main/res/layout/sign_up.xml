@@ -1,18 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
+
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#f44842"
     android:fitsSystemWindows="true"
+    android:padding="8dp"
     android:weightSum="1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
     <ImageView
         android:id="@+id/_logo"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="0.26"
+        android:layout_height="150dp"
+        android:layout_weight="2526.88"
         android:src="@mipmap/ic_launcher" />
 
     <EditText
@@ -82,7 +88,8 @@
         android:text="Sign Up"
         android:textColor="#ffffff"
         android:background="#c62828"
-        android:layout_marginLeft="90dp"
+        android:layout_marginLeft="69dp"
+
         android:layout_marginTop="20dp"/>
 
     <TextView
@@ -90,11 +97,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="20dp"
-        android:layout_marginLeft="80dp"
+        android:layout_marginLeft="61dp"
         android:layout_marginTop="20dp"
         android:textColor="#ffffff"
         android:text="Already a member? Login"
-        android:layout_weight="0.06" />
+        android:layout_weight="0.08" />
 
-
-</LinearLayout>
+    </LinearLayout>
+</ScrollView>
