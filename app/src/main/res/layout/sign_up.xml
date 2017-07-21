@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f44842"
+    android:fitsSystemWindows="true"
+    android:weightSum="1">
+
+    <ImageView
+        android:id="@+id/_logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.26"
+        android:src="@mipmap/ic_launcher" />
+
+    <EditText
+        android:id="@+id/_nid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textColor="#ffffff"
+        android:inputType="textPersonName"
+        android:text="Name"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_weight="0.08"
+        android:paddingLeft="30dp"/>
+
+    <EditText
+        android:id="@+id/_uid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.08"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:ems="10"
+        android:text="UserName"
+        android:textColor="#ffffff"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="30dp"/>
+
+    <EditText
+        android:id="@+id/_pid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_weight="0.08"
+        android:hint="Password"
+        android:textColorHint="#ffffff"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:inputType="textPassword"
+        android:textColor="#ffffff"
+        android:paddingLeft="30dp"/>
+
+    <EditText
+        android:id="@+id/_cpid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_weight="0.08"
+        android:hint="Confirm Password"
+        android:textColorHint="#ffffff"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:inputType="textPassword"
+        android:textColor="#ffffff"
+        android:paddingLeft="30dp"/>
+
+    <Button
+        android:id="@+id/_sid"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:textColor="#ffffff"
+        android:background="#c62828"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/_lid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="20dp"
+        android:textColor="#ffffff"
+        android:text="Already a member? Login"
+        android:layout_weight="0.06" />
+
+
+</LinearLayout>
